@@ -39,7 +39,7 @@
 .sidebar-menu__container {
     display: flex;
     flex-direction: column;
-    gap: 16.5rem; 
+    gap: 14.5rem; 
     /* justify-content: space-between; */
     background-color: var(--color-card);
     height: 100%;
@@ -52,6 +52,12 @@
 
 }
 
+
+
+.sidebar-menu__container span {
+  font-size: var(--length-md3);
+
+}
 
 
 .sidebar-menu__container .sidebar-menu__middle {

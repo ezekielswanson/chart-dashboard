@@ -39,7 +39,8 @@
 .sidebar-menu__container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 16.5rem; 
+    /* justify-content: space-between; */
     background-color: var(--color-card);
     height: 100%;
     position: fixed;
@@ -47,7 +48,17 @@
     top: 0;
     left: 0;
     padding: 2rem 1rem;
+    align-items: center;
 
 }
+
+
+
+.sidebar-menu__container .sidebar-menu__middle {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 
 

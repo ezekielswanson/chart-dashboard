@@ -13,6 +13,11 @@
     --length-md1: 1rem;
     --length-md2: 1.25rem;
     --length-md3: 1.5rem;
+
+     /* Font Sizes */
+    --length-sm1: 0.3rem;
+    --length-sm2: 0.6rem;
+    --length-sm3: 0.8rem;
   }
   
   body {
@@ -64,6 +69,19 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+
+
+.dashboard-card {
+  background-color: var(--color-card);
 }
 
 

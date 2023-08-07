@@ -13,6 +13,7 @@
     --length-md1: 1rem;
     --length-md2: 1.25rem;
     --length-md3: 1.5rem;
+    --length-md4: 1.75rem;
 
      /* Font Sizes */
     --length-sm1: 0.3rem;
@@ -73,16 +74,91 @@
 
 
 
+/**** END Sidebar Menu Section *****/
+
+
+
+
+
+
+/*** DASHBOARD CONTAINER ****/
+
 .dashboard-container {
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  padding: 16px;
+  background-color: var(--color-background);
+  margin: 0 170px;
+
 }
 
 
 
 .dashboard-card {
   background-color: var(--color-card);
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.dashboard-card  .dashboard-card__text-display {
+  display: block;
 }
 
 
 
+.dashboard-card  .dashboard-card__text-display  .dashboard-card__title {
+  font-size: var(--length-sm3);
+  font-weight: 400;
+  color: var(--color-label);
+  margin-bottom: 4px;
+}
+
+
+
+
+.dashboard-card .dashboard-card__text-display .dashboard-card__number {
+  font-size: var(--length-md4);
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+
+/*
+
+.dashboard-card .dashboard-card__icon-container {
+  width: 52.8px;
+  height: 52.8px;
+  border-radius: 26.4px;
+  background-color: var(--color-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+*/
+
+.dashboard-card .dashboard-card__icon {
+  color: var(--color-primary);
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-background);
+  border-radius: 26.4px;
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+/*** END DASHBOARD CONTAINER ****/

@@ -88,7 +88,9 @@
   grid-template-columns: repeat(4,1fr);
   padding: 16px;
   background-color: var(--color-background);
-  margin: 0 170px;
+  margin: 0 auto;
+  gap: 16px;
+  width: 600px;
 
 }
 
@@ -151,6 +153,41 @@
   background-color: var(--color-background);
   border-radius: 26.4px;
   font-size: 2rem;
+}
+
+
+
+.dashboard-card__bullet {
+  width: 12.8px;
+  height: 12.8px;
+  border-radius: 6.4px;
+
+}
+
+
+
+/* Third card */
+
+
+.dashboard-card.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 9.60px;
+}
+
+
+.dashboard-card__bullet.primary {
+  background-color: var(--color-primary);
+}
+
+.dashboard-card__bullet.accent {
+  background-color: var(--color-accent);
+}
+
+.dashboard-card__bullet.default {
+  background-color: var(--color-default);
 }
 
 

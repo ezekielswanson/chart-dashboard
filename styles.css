@@ -193,6 +193,17 @@
 
 
 
+/* Cards Second Row */
+
+.dashboard-card.verical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 28px;
+  border-radius: 16px;
+
+
+}
 
 
 

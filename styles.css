@@ -85,7 +85,7 @@
 
 .dashboard-container {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(3,1fr);
   padding: 16px;
   background-color: var(--color-background);
   margin: 0 auto;
@@ -201,8 +201,16 @@
   align-items: center;
   padding: 35px 28px;
   border-radius: 16px;
+  text-align: center;
 
 
+}
+
+.dashboard-card.verical .dashboard-card__text-display h2 {
+  font-size: var(--length-md1)
+  font-weight: 500;
+  color: var(--color-label);
+  margin-bottom: 16px;
 }
 
 

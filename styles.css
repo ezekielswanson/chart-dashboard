@@ -35,7 +35,19 @@
 
 
 
-*
+/**** Global Styles ****/
+
+
+.dashboard-card__number {
+  font-size: var(--length-md4);
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+
+
+
+/**** End Global Styles ****/
 
 
 
@@ -122,13 +134,6 @@
 
 
 
-.dashboard-card .dashboard-card__text-display .dashboard-card__number {
-  font-size: var(--length-md4);
-  font-weight: 500;
-  color: var(--color-text);
-}
-
-
 /*
 
 .dashboard-card .dashboard-card__icon-container {
@@ -206,12 +211,39 @@
 
 }
 
-.dashboard-card.verical .dashboard-card__text-display h2 {
-  font-size: var(--length-md1)
+.dashboard-card.verical .dashboard-card__text-display h1 {
+  font-size: var(--length-md1);
   font-weight: 500;
   color: var(--color-label);
   margin-bottom: 16px;
 }
+
+.dashboard-card.verical .dashboard-card__text-display .dashboard-card__number {
+  margin-bottom: 35px;
+}
+
+.dashboard-card.verical .dashboard-card__circle-graph {
+  position: relative;
+  width: 8.5rem;
+  height: 8.5rem;
+  margin: 0px auto;
+  border-radius: 50%;
+  background: conic-gradient( var(--color-primary) 0% 33%, var(--color-default) 33% 100% );
+}
+
+.dashboard-card.verical .dashboard-card__circle-graph::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  height: 85%;
+  border-radius: inherit;
+  background: var(--color-card);
+}
+
+
 
 
 

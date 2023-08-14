@@ -200,6 +200,7 @@
 
 /* Cards Second Row */
 
+
 .dashboard-card.verical {
   display: flex;
   flex-direction: column;
@@ -222,6 +223,10 @@
   margin-bottom: 35px;
 }
 
+
+
+/* Second Row 1st Card */
+
 .dashboard-card.verical .dashboard-card__circle-graph {
   position: relative;
   width: 8.5rem;
@@ -241,6 +246,19 @@
   height: 85%;
   border-radius: inherit;
   background: var(--color-card);
+}
+
+
+
+/* Second Row 2nd Card */
+
+
+.dashboard-card.verical .dashboard-card__text-display .dashboard-card__text-display--col-container {
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  align-items: center;
+  justify-content: center;
 }
 
 

@@ -437,11 +437,39 @@
 }
 
 
+.dashboard-card.rows {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 38px;
+}
+
+.dashboard-card.rows .dashboard-card__text-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-card.rows .dashboard-card__img-text--row img {
+  width: 53px;
+  height: 53px;
+}
 
 
 
 
+.dashboard-card.rows .dashboard-card__img-text--row {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 22px;
+}
 
+
+.dashboard-card.rows .dashboard-card__img-text--row .dashboard-card__img-text--row-text {
+  width: 300px;
+}
 
 
 /*** END DASHBOARD CONTAINER ****/

@@ -472,4 +472,27 @@
 }
 
 
+
+
+
+.dashboard-card.rows .dashboard-card__feed-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+
+.dashboard-card.rows .dashboard-card__feed-row img {
+  width: 18.8px;
+  height: 18.8px;
+}
+
+
+
+.dashboard-card.rows .dashboard-card__feed-row img::before {
+  border: 1px solid red;
+  height: 300px;
+}
+
 /*** END DASHBOARD CONTAINER ****/

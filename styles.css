@@ -483,16 +483,40 @@
 }
 
 
-.dashboard-card.rows .dashboard-card__feed-row img {
+
+
+
+
+/**** ACTIVITY FEED *****/
+
+.dashboard-card__feed-display {
+  position: relative;
+}
+
+.dashboard-card__feed-vert-line {
+      position: absolute;
+      left: 115px;
+      background: var(--color-primary);
+      width: 2px;
+      height: 89%;
+      z-index: -5px;
+  
+}
+  
+
+
+.dashboard-card.rows .dashboard-card__feed-display .dashboard-card__feed-row p {
+  margin-right: 7px;
+}
+
+.dashboard-card.rows .dashboard-card__feed-display .dashboard-card__feed-row img {
   width: 18.8px;
   height: 18.8px;
+  margin-right: 6px;
+  z-index: 10;
 }
 
 
 
-.dashboard-card.rows .dashboard-card__feed-row img::before {
-  border: 1px solid red;
-  height: 300px;
-}
 
 /*** END DASHBOARD CONTAINER ****/

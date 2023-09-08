@@ -489,10 +489,28 @@
 
 /**** ACTIVITY FEED *****/
 
-.dashboard-card__feed-display {
+
+.dashboard-card__feed-display .dashboard-card__feed-row {
   position: relative;
 }
 
+
+/*
+.dashboard-card__feed-display .dashboard-card__feed-row::after {
+  position: absolute;
+  left: 15px;
+  content: '';
+  width: 2px;
+  height: 50px;
+  background: var(--color-primary);
+
+}
+*/
+
+
+
+
+/*
 .dashboard-card__feed-vert-line {
       position: absolute;
       left: 115px;
@@ -502,7 +520,7 @@
       z-index: -5px;
   
 }
-  
+*/
 
 
 .dashboard-card.rows .dashboard-card__feed-display .dashboard-card__feed-row p {
@@ -515,6 +533,18 @@
   margin-right: 6px;
   z-index: 10;
 }
+
+
+.dashboard-card.rows .dashboard-card__feed-display .dashboard-card__feed-row img::after {
+  position: absolute;
+  left: 15px;
+  content: '';
+  width: 2px;
+  height: 50px;
+  background: var(--color-primary);
+}
+
+
 
 
 

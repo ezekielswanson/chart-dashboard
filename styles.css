@@ -480,6 +480,7 @@
   flex-direction: row;
   margin-bottom: 16px;
   align-items: center;
+  position: relative;
 }
 
 

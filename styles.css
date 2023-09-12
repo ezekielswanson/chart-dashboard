@@ -441,6 +441,7 @@
   display: flex;
   flex-direction: column;
   padding: 16px 16px 38px;
+ 
 }
 
 .dashboard-card.rows .dashboard-card__text-display {
@@ -480,6 +481,7 @@
   flex-direction: row;
   margin-bottom: 16px;
   align-items: center;
+  position: relative;
 }
 
 
@@ -492,6 +494,16 @@
 
 .dashboard-card__feed-display .dashboard-card__feed-row {
   position: relative;
+}
+
+
+.dashboard-card__feed-display .dashboard-card__feed-row::before {
+  position: absolute;
+  left: 10px; /*Change depending on how far over you want the line*/
+  content: '';
+  width: 2px;
+  height: 100%;
+  background: var(--color-primary);
 }
 
 
@@ -542,6 +554,7 @@
   width: 2px;
   height: 50px;
   background: var(--color-primary);
+  z-index: -1;
 }
 
 

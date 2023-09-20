@@ -451,9 +451,12 @@
   align-items: center;
 }
 
-.dashboard-card.rows .dashboard-card__img-text--row img {
-  width: 53px;
-  height: 53px;
+.dashboard-card.rows .circle {
+  flex-shrink: 0;
+	width: 1em;
+	height: 1em;
+	border-radius: 50%;
+	background-color: black;
 }
 
 

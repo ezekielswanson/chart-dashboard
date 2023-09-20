@@ -499,40 +499,14 @@
 
 .dashboard-card__feed-display .dashboard-card__feed-row::before {
   position: absolute;
-  left: 10px; /*Change depending on how far over you want the line*/
+  left: 76px; 
   content: '';
   width: 2px;
-  height: 100%;
+  height: calc(100% - -17px);
   background: var(--color-primary);
 }
 
 
-/*
-.dashboard-card__feed-display .dashboard-card__feed-row::after {
-  position: absolute;
-  left: 15px;
-  content: '';
-  width: 2px;
-  height: 50px;
-  background: var(--color-primary);
-
-}
-*/
-
-
-
-
-/*
-.dashboard-card__feed-vert-line {
-      position: absolute;
-      left: 115px;
-      background: var(--color-primary);
-      width: 2px;
-      height: 89%;
-      z-index: -5px;
-  
-}
-*/
 
 
 .dashboard-card.rows .dashboard-card__feed-display .dashboard-card__feed-row p {
@@ -545,6 +519,7 @@
   margin-right: 6px;
   z-index: 10;
 }
+
 
 
 .dashboard-card.rows .dashboard-card__feed-display .dashboard-card__feed-row img::after {

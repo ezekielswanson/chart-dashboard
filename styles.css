@@ -470,10 +470,17 @@
     gap: 22px;
 }
 
+.dashboard-card.rows .dashboard-card__img-text--row img {
+  width: 52px;
+  width: 52px;
+  
+}
 
 .dashboard-card.rows .dashboard-card__img-text--row .dashboard-card__img-text--row-text {
   width: 300px;
 }
+
+
 
 
 

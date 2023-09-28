@@ -511,7 +511,8 @@
   left: 130px; 
   content: '';
   width: 2px;
-  height: calc(100% - -17px);
+  height: calc(100% - 25%);
+	top: 12.5%;
   background: var(--color-primary);
 }
 

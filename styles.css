@@ -501,15 +501,14 @@
 
 /**** ACTIVITY FEED *****/
 
-
-.dashboard-card__feed-display .dashboard-card__feed-row {
+.dashboard-card__feed-display.timeline {
   position: relative;
 }
 
 
-.dashboard-card__feed-display .dashboard-card__feed-row::before {
+.dashboard-card__feed-display.timeline:before {
   position: absolute;
-  left: 76px; 
+  left: 130px; 
   content: '';
   width: 2px;
   height: calc(100% - -17px);
@@ -543,6 +542,15 @@
 }
 
 
+
+.dashboard-card__feed-row .circle {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: 3px solid #44F6FD;
+  background-color: var(--color-default);
+  margin: 0px 12px;
+}
 
 
 

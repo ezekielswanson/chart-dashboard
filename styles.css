@@ -112,8 +112,10 @@
 
 .dashboard-container {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  /* grid-template-areas: "card-1 card-2 card-3 card-3"; */
+  grid-template-columns: repeat(4,1fr);
+  grid-template-areas: "card-1 card-2 card-3 card-3"
+  "card-4 card-5 card-5 card-6"
+  "card-7 card-7 card-8 card-8";
   padding: 16px;
   background-color: var(--color-background);
   margin: 0 auto;
@@ -121,6 +123,46 @@
   width: 800px;
 
 }
+
+/* Setting grid areas */
+
+.grid-card__1 {
+  grid-area: card-1;
+}
+
+.grid-card__2 {
+  grid-area:  card-2;
+}
+
+.grid-card__3 {
+  grid-area: card-3;
+}
+
+.grid-card__4 {
+  grid-area: card-4;
+}
+
+.grid-card__5 {
+  grid-area:  card-5;
+}
+
+.grid-card__6 {
+  grid-area: card-6;
+}
+
+.grid-card__7 {
+  grid-area: card-7;
+}
+
+
+.grid-card__8 {
+  grid-area: card-8;
+}
+
+
+
+
+
 
 
 

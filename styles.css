@@ -86,6 +86,12 @@
 }
 
 
+@media (max-width: 979px) {
+  .sidebar-menu__container {
+    display: none;
+  }
+}
+
 
 .sidebar-menu__container span {
   font-size: var(--length-md3);
@@ -113,7 +119,8 @@
 .dashboard-container {
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  grid-template-areas: "card-1 card-2 card-3 card-3"
+  grid-template-areas: 
+  "card-1 card-2 card-3 card-3"
   "card-4 card-5 card-5 card-6"
   "card-7 card-7 card-8 card-8";
   padding: 16px;
@@ -121,6 +128,23 @@
   margin: 0 auto;
   gap: 16px;
   width: 800px;
+
+}
+
+
+@media (max-width: 800px) {
+.dashboard-container {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas:
+    "card-1 card-2"
+    "card-3 card-3" 
+    "card-5 card-5"
+    "card-4 card-6"
+    "card-7 card-7" 
+    "card-8 card-8";
+  }
+
+
 
 }
 
@@ -563,6 +587,7 @@
 
 .dashboard-card.rows .dashboard-card__feed-display .dashboard-card__feed-row p {
   margin-right: 7px;
+  margin-top: 0px;
 }
 
 .dashboard-card.rows .dashboard-card__feed-display .dashboard-card__feed-row img {
